@@ -1,4 +1,8 @@
 ---
 layout: default
+title: "Happy Jekylling!"
 ---
-{{ site.description }}
+
+## You're ready to go!
+
+Start developing your Jekyll website.
