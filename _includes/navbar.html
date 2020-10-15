@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <header>
   <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
     <img src="{{ site.logo | relative_url }}">
@@ -15,3 +16,20 @@
     </div>
   </nav>
 </header>
+=======
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <img src="{{ site.logo | relative_url }}">
+  <a class="navbar-brand" href="#">{{site.title}}</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      {% for item in site.data.navbar %}
+      <a class="nav-item nav-link" href="{{item.link}}">{{ item.name }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</nav>
+>>>>>>> 3ab68d6e7b0cc65630277589676dfa09dc2a9cf2
