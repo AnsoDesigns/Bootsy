@@ -4,7 +4,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "" # the subpath of your site, e.g. /blog
 logo: "/assets/img/logo.png"
 favicon: "/assets/img/favicon.ico"
+<<<<<<< HEAD
 copyright: "&copy; AnsoDesigns.com 2020"
+=======
+>>>>>>> 3ab68d6e7b0cc65630277589676dfa09dc2a9cf2
 
 # google_analytics: UA-111111111-1
 
